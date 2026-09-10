@@ -7,11 +7,11 @@
 # (insert peak ~112 bp < 150 bp read length, ~73% reads adapter-contaminated in PRJCA005164;
 # untrimmed HISAT2 rate ~35%, trimmed ~95%).
 set -u
-source /home/jxun/miniforge3/etc/profile.d/conda.sh
+source /home/xi/tmp/miniforge3/etc/profile.d/conda.sh
 conda activate m6a
 
 BASE="$1"; THREADS="${2:-4}"
-IDX=${HISAT2_IDX:-/mnt/j/m6A_plant_data/reference/hisat2_index/TAIR10}
+IDX=${HISAT2_IDX:-/home/xi/tmp/plant_m6A_data/ref/hisat2_index/TAIR10}
 SORT_THREADS=3; SORT_MEM=512M   # 11GB RAM WSL: cap sort buffers (was the OOM source)
 mkdir -p "$BASE/fastq_trim" "$BASE/qc/fastp" "$BASE/qc/fastqc" "$BASE/bam" "$BASE/logs"
 

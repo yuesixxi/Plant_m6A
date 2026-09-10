@@ -4,7 +4,7 @@
 # ENA URL rule: vol1/fastq/<SRR+first3digits>/[subdir]/<acc>/<acc>_1.fastq.gz
 #   subdir: 7-digit accession -> 00<last digit>; 8-digit -> 0<last two digits>
 set -u
-source /home/jxun/miniforge3/etc/profile.d/conda.sh
+source /home/xi/tmp/miniforge3/etc/profile.d/conda.sh
 conda activate m6a
 
 BASE="$1"; shift

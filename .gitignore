@@ -1,0 +1,27 @@
+# ---- heavy / generated data (never commit) ----
+data/
+ref/
+*.sra
+/raw_sra/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.fq
+*.bam
+*.bai
+/sam/
+/bam/
+/fastq/
+/fastq_trim/
+*.sorted.bam
+
+# ---- intermediate ----
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+*.o
+*.so
+
+# ---- local/internal docs (not for public repo) ----
+Plant_m6A_Codex_handover.md

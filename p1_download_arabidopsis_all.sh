@@ -4,8 +4,8 @@
 # GSE79523:  alkbh10b (8 runs, PE)
 # GSE227150: FIO1 subset (WT/fio1/mta meRIP, light+dark, 24 runs, PE)
 set -u
-SRC=/mnt/e/Projects/RNA6A_NAT/m6A_Plant/src
-DATA=/mnt/j/m6A_plant_data
+SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DATA=/home/xi/tmp/plant_m6A_data
 
 bash $SRC/p1_download_sra.sh $DATA/GSE174573 \
   SRR14570256 SRR14570257 SRR14570258 SRR14570259 SRR14570260 SRR14570261 \

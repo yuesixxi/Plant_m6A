@@ -1,0 +1,25 @@
+sample,group,type,condition,replicate
+SRR23816919,WT,IP,blue light,2
+SRR23816889,WT,IP,blue light,1
+SRR23816865,WT,Input,blue light,1
+SRR23816888,WT,Input,blue light,2
+SRR23816872,fio1,IP,blue light,2
+SRR23816912,fio1,IP,blue light,1
+SRR23816911,fio1,Input,blue light,2
+SRR23816881,fio1,Input,blue light,1
+SRR23816868,mta,IP,blue light,2
+SRR23816869,mta,IP,blue light,1
+SRR23816907,mta,Input,blue light,2
+SRR23816908,mta,Input,blue light,1
+SRR23816917,WT,IP,dark,2
+SRR23816918,WT,IP,dark,1
+SRR23816886,WT,Input,dark,2
+SRR23816887,WT,Input,dark,1
+SRR23816870,fio1,IP,dark,2
+SRR23816871,fio1,IP,dark,1
+SRR23816909,fio1,Input,dark,2
+SRR23816910,fio1,Input,dark,1
+SRR23816866,mta,IP,dark,2
+SRR23816867,mta,IP,dark,1
+SRR23816905,mta,Input,dark,2
+SRR23816906,mta,Input,dark,1

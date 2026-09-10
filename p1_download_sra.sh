@@ -2,8 +2,8 @@
 # Generic SRA download: prefetch + fasterq-dump --split-files + gzip
 # Usage: p1_download_sra.sh <BASE_DIR> <SRR1> [SRR2 ...]
 set -u
-source /home/jxun/miniforge3/etc/profile.d/conda.sh
-conda activate sra
+source /home/xi/tmp/miniforge3/etc/profile.d/conda.sh
+conda activate m6a
 
 BASE="$1"; shift
 mkdir -p "$BASE/sra" "$BASE/fastq" "$BASE/tmp"

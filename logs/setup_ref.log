@@ -1,0 +1,64 @@
+=== startup Thu Sep 10 02:34:36 PM CEST 2026 ===
+--- download genomes + gtf ---
+[#b59cb6 13MiB/34MiB(39%) CN:8 DL:14MiB ETA:1s]
+[#b59cb6 28MiB/34MiB(81%) CN:7 DL:14MiB]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+b59cb6|OK  |    12MiB/s|/home/xi/tmp/plant_m6A_data/ref/ath_TAIR10.fa.gz.part
+
+Status Legend:
+(OK):download completed.
+[#7aafaa 5.4MiB/10MiB(50%) CN:2 DL:6.1MiB]
+[#7aafaa 10MiB/10MiB(100%) CN:0]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+7aafaa|OK  |   5.6MiB/s|/home/xi/tmp/plant_m6A_data/ref/ath_TAIR10.gtf.gz.part
+
+Status Legend:
+(OK):download completed.
+[#1e35a5 10MiB/109MiB(9%) CN:8 DL:11MiB ETA:8s]
+[#1e35a5 29MiB/109MiB(27%) CN:8 DL:15MiB ETA:5s]
+[#1e35a5 43MiB/109MiB(39%) CN:8 DL:14MiB ETA:4s]
+[#1e35a5 58MiB/109MiB(53%) CN:8 DL:14MiB ETA:3s]
+[#1e35a5 71MiB/109MiB(65%) CN:8 DL:14MiB ETA:2s]
+[#1e35a5 86MiB/109MiB(78%) CN:8 DL:14MiB ETA:1s]
+[#1e35a5 100MiB/109MiB(91%) CN:7 DL:14MiB]
+[#1e35a5 108MiB/109MiB(99%) CN:2 DL:13MiB]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+1e35a5|OK  |    13MiB/s|/home/xi/tmp/plant_m6A_data/ref/osa_IRGSP1.0.fa.gz.part
+
+Status Legend:
+(OK):download completed.
+[#a20e71 4.3MiB/8.2MiB(53%) CN:2 DL:4.8MiB]
+[#a20e71 8.1MiB/8.2MiB(99%) CN:1 DL:4.2MiB]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+a20e71|OK  |   4.2MiB/s|/home/xi/tmp/plant_m6A_data/ref/osa_IRGSP1.0.gtf.gz.part
+
+Status Legend:
+(OK):download completed.
+--- decompress ---
+total 1.1G
+-rw-r--r-- 1 xi tntwiss 117M Sep 10  2026 ath_TAIR10.fa
+-rw-r--r-- 1 xi tntwiss  35M Sep 10  2026 ath_TAIR10.fa.gz
+-rw-r--r-- 1 xi tntwiss 261M Sep 10  2026 ath_TAIR10.gtf
+-rw-r--r-- 1 xi tntwiss  11M Sep 10  2026 ath_TAIR10.gtf.gz
+-rw-r--r-- 1 xi tntwiss 364M Sep 10  2026 osa_IRGSP1.0.fa
+-rw-r--r-- 1 xi tntwiss 110M Sep 10  2026 osa_IRGSP1.0.fa.gz
+-rw-r--r-- 1 xi tntwiss 179M Sep 10  2026 osa_IRGSP1.0.gtf
+-rw-r--r-- 1 xi tntwiss 8.3M Sep 10  2026 osa_IRGSP1.0.gtf.gz
+--- build HISAT2 index: TAIR10 ---
+/usr/bin/env: ‘python’: No such file or directory
+--- build HISAT2 index: IRGSP-1.0 ---
+/usr/bin/env: ‘python’: No such file or directory
+=== DONE Thu Sep 10 02:35:06 PM CEST 2026 ===
+total 0

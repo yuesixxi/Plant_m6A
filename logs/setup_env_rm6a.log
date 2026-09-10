@@ -1,0 +1,595 @@
+=== startup Thu Sep 10 02:29:02 PM CEST 2026 ===
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+
+Transaction
+
+  Prefix: /home/xi/tmp/miniforge3/envs/rm6a
+
+  Updating specs:
+
+   - r-base
+   - r-data.table
+   - r-sandwich
+   - r-lmtest
+   - r-argparse
+   - bioconductor-rtracklayer
+   - bioconductor-exomepeak2
+   - bioconductor-bsgenome
+   - bioconductor-genomicfeatures
+
+
+  Package                                   Version  Build                 Channel           Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                               4.5  20_gnu                conda-forge     Cached
+  + _r-mutex                                  1.0.1  anacondar_1           conda-forge        4kB
+  + argcomplete                               3.7.2  pyhcf101f3_0          conda-forge       47kB
+  + binutils_impl_linux-64                   2.46.1  default_hfdba357_102  conda-forge        4MB
+  + bioconductor-annotationdbi               1.64.1  r43hdfd78af_0         bioconda           5MB
+  + bioconductor-apeglm                      1.24.0  r43hf17093f_1         bioconda           1MB
+  + bioconductor-biobase                     2.62.0  r43ha9d7317_3         bioconda           3MB
+  + bioconductor-biocfilecache               2.10.1  r43hdfd78af_0         bioconda         591kB
+  + bioconductor-biocgenerics                0.48.1  r43hdfd78af_2         bioconda         658kB
+  + bioconductor-biocio                      1.12.0  r43hdfd78af_0         bioconda         467kB
+  + bioconductor-biocparallel                1.36.0  r43hf17093f_2         bioconda           2MB
+  + bioconductor-biomart                     2.58.0  r43hdfd78af_0         bioconda         929kB
+  + bioconductor-biostrings                  2.70.1  r43ha9d7317_2         bioconda          15MB
+  + bioconductor-bsgenome                    1.70.1  r43hdfd78af_0         bioconda           7MB
+  + bioconductor-data-packages             20260207  hdfd78af_1            bioconda         274kB
+  + bioconductor-delayedarray                0.28.0  r43ha9d7317_2         bioconda           2MB
+  + bioconductor-deseq2                      1.42.0  r43hf17093f_2         bioconda           3MB
+  + bioconductor-exomepeak2                  1.14.3  r43hdfd78af_0         bioconda           2MB
+  + bioconductor-genomeinfodb                1.38.1  r43hdfd78af_1         bioconda           4MB
+  + bioconductor-genomeinfodbdata            1.2.11  r43hdfd78af_1         bioconda           9kB
+  + bioconductor-genomicalignments           1.38.0  r43ha9d7317_1         bioconda           2MB
+  + bioconductor-genomicfeatures             1.54.1  r43hdfd78af_0         bioconda           2MB
+  + bioconductor-genomicranges               1.54.1  r43ha9d7317_2         bioconda           2MB
+  + bioconductor-iranges                     2.36.0  r43ha9d7317_2         bioconda           3MB
+  + bioconductor-keggrest                    1.42.0  r43hdfd78af_0         bioconda         205kB
+  + bioconductor-matrixgenerics              1.14.0  r43hdfd78af_3         bioconda         464kB
+  + bioconductor-rhtslib                      2.4.0  r43ha9d7317_2         bioconda           2MB
+  + bioconductor-rsamtools                   2.18.0  r43hf17093f_2         bioconda           4MB
+  + bioconductor-rtracklayer                 1.62.0  r43ha9d7317_1         bioconda           6MB
+  + bioconductor-s4arrays                     1.2.0  r43ha9d7317_2         bioconda         815kB
+  + bioconductor-s4vectors                   0.40.2  r43ha9d7317_2         bioconda           3MB
+  + bioconductor-sparsearray                  1.2.2  r43ha9d7317_2         bioconda           2MB
+  + bioconductor-summarizedexperiment        1.32.0  r43hdfd78af_0         bioconda           2MB
+  + bioconductor-xvector                     0.42.0  r43ha9d7317_2         bioconda         754kB
+  + bioconductor-zlibbioc                    1.48.0  r43ha9d7317_2         bioconda          26kB
+  + bwidget                                  1.10.1  hfc2019e_3            conda-forge      135kB
+  + bzip2                                     1.0.8  hda65f42_10           conda-forge     Cached
+  + c-ares                                   1.34.8  hebe6cf0_2            conda-forge     Cached
+  + ca-certificates                       2026.7.22  hbd8a1cb_0            conda-forge     Cached
+  + cairo                                    1.18.4  h3394656_0            conda-forge     Cached
+  + curl                                     8.21.0  hcf29cc6_1            conda-forge      195kB
+  + font-ttf-dejavu-sans-mono                  2.37  hab24e00_0            conda-forge     Cached
+  + font-ttf-inconsolata                      3.000  h77eed37_0            conda-forge     Cached
+  + font-ttf-source-code-pro                  2.038  h77eed37_0            conda-forge     Cached
+  + font-ttf-ubuntu                            0.83  h77eed37_3            conda-forge     Cached
+  + fontconfig                               2.18.3  h4db4eae_1            conda-forge     Cached
+  + fonts-conda-ecosystem                         1  0                     conda-forge     Cached
+  + fonts-conda-forge                             1  hc364b38_1            conda-forge     Cached
+  + freetype                                 2.14.3  ha770c72_2            conda-forge     Cached
+  + fribidi                                  1.0.16  h7cc23a3_2            conda-forge       62kB
+  + gcc_impl_linux-64                        16.2.0  h176d5d0_4            conda-forge       86MB
+  + gfortran_impl_linux-64                   16.2.0  hf930d89_4            conda-forge       21MB
+  + graphite2                                1.3.15  h54a6638_1            conda-forge     Cached
+  + gsl                                         2.7  he838d99_0            conda-forge        3MB
+  + gxx_impl_linux-64                        16.2.0  h0d273dc_4            conda-forge       18MB
+  + harfbuzz                                 12.2.0  h15599e2_0            conda-forge     Cached
+  + icu                                        75.1  he02047a_0            conda-forge     Cached
+  + jq                                        1.8.2  h280c20c_1            conda-forge      317kB
+  + kernel-headers_linux-64                  6.12.0  he073ed8_6            conda-forge        2MB
+  + keyutils                                  1.6.3  h7cc23a3_1            conda-forge     Cached
+  + krb5                                     1.22.2  hbc21106_2            conda-forge     Cached
+  + ld_impl_linux-64                         2.46.1  default_hbd61a6d_102  conda-forge     Cached
+  + lerc                                      4.2.0  hdb68285_0            conda-forge     Cached
+  + libblas                                  3.11.0  10_h4a7cf45_openblas  conda-forge     Cached
+  + libcblas                                 3.11.0  10_h0358290_openblas  conda-forge     Cached
+  + libcurl                                  8.21.0  hcf29cc6_1            conda-forge      479kB
+  + libdeflate                                 1.25  hd45a770_1            conda-forge     Cached
+  + libedit                            3.1.20250104  pl5321h373387f_1      conda-forge     Cached
+  + libev                                      4.33  h280c20c_3            conda-forge     Cached
+  + libexpat                                  2.8.1  hecca717_1            conda-forge     Cached
+  + libffi                                    3.7.0  h81df57d_1            conda-forge     Cached
+  + libfreetype                              2.14.3  ha770c72_2            conda-forge     Cached
+  + libfreetype6                             2.14.3  h5e6c136_2            conda-forge     Cached
+  + libgcc                                   16.2.0  ha9f2e26_4            conda-forge     Cached
+  + libgcc-devel_linux-64                    16.2.0  he3ce08f_104          conda-forge        3MB
+  + libgcc-ng                                16.2.0  h69a702a_4            conda-forge     Cached
+  + libgfortran                              16.2.0  h69a702a_4            conda-forge     Cached
+  + libgfortran-ng                           16.2.0  h69a702a_4            conda-forge       28kB
+  + libgfortran5                             16.2.0  h6b99dfc_4            conda-forge     Cached
+  + libglib                                  2.88.3  h569388d_4            conda-forge     Cached
+  + libgomp                                  16.2.0  he0feb66_4            conda-forge     Cached
+  + libiconv                                   1.18  h0cb94f2_3            conda-forge     Cached
+  + libjpeg-turbo                             3.2.0  hb03c661_1            conda-forge     Cached
+  + liblapack                                3.11.0  10_h47877c9_openblas  conda-forge     Cached
+  + liblzma                                   5.8.3  hb03c661_1            conda-forge     Cached
+  + libmpdec                                  4.0.0  hb03c661_2            conda-forge     Cached
+  + libnghttp2                               1.68.1  h74cf4be_1            conda-forge     Cached
+  + libopenblas                              0.3.34  pthreads_hcf972fe_1   conda-forge     Cached
+  + libpng                                   1.6.58  h922cc85_1            conda-forge     Cached
+  + libpython                                3.14.7  hdc7f604_106_cp314    conda-forge     Cached
+  + libsanitizer                             16.2.0  h3048135_4            conda-forge        8MB
+  + libsqlite                                3.53.4  h0737f62_1            conda-forge      969kB
+  + libssh2                                  1.11.1  h6154650_1            conda-forge     Cached
+  + libstdcxx                                16.2.0  h934c35e_4            conda-forge     Cached
+  + libstdcxx-devel_linux-64                 16.2.0  h86e191b_104          conda-forge       22MB
+  + libstdcxx-ng                             16.2.0  hdf11a46_4            conda-forge     Cached
+  + libtiff                                   4.7.2  hcc2c06a_1            conda-forge     Cached
+  + libuuid                                  2.42.3  hcfc3c73_0            conda-forge     Cached
+  + libwebp-base                              1.6.0  hd42ef1d_1            conda-forge     Cached
+  + libxcb                                   1.17.0  hb83e432_2            conda-forge     Cached
+  + libxml2                                  2.13.9  h04c0eec_0            conda-forge      697kB
+  + libzlib                                   1.3.2  h25fd6f3_3            conda-forge     Cached
+  + make                                      4.4.1  hb03c661_3            conda-forge      511kB
+  + ncurses                                     6.6  hdb14827_1            conda-forge     Cached
+  + oniguruma                                6.9.10  hebe6cf0_1            conda-forge      281kB
+  + openssl                                   3.6.4  h781a0a9_0            conda-forge     Cached
+  + pango                                    1.56.4  hadf4263_0            conda-forge     Cached
+  + pcre2                                     10.47  h8b3dc9c_1            conda-forge     Cached
+  + pip                                      26.2.1  pyh145f28c_0          conda-forge     Cached
+  + pixman                                   0.46.4  h54a6638_3            conda-forge     Cached
+  + pthread-stubs                               0.4  h7cc23a3_1004         conda-forge     Cached
+  + python                                   3.14.7  hcd007b5_106_cp314    conda-forge     Cached
+  + python_abi                                 3.14  9_cp314               conda-forge     Cached
+  + pyyaml                                    6.0.3  py314h67df5f8_1       conda-forge     Cached
+  + r-abind                                   1.4_5  r43hc72bb7e_1006      conda-forge       78kB
+  + r-argparse                                2.2.5  r43hc72bb7e_0         conda-forge      158kB
+  + r-ashr                                   2.2_63  r43h93ab643_2         conda-forge        1MB
+  + r-askpass                                 1.2.1  r43h2b5f3a1_0         conda-forge       31kB
+  + r-assertthat                              0.2.1  r43hc72bb7e_5         conda-forge       71kB
+  + r-base                                    4.3.3  hc28aa72_21           conda-forge       26MB
+  + r-bbmle                                1.0.25.1  r43hc72bb7e_1         conda-forge      832kB
+  + r-bdsmatrix                               1.3_7  r43h2b5f3a1_2         conda-forge      316kB
+  + r-bh                                   1.87.0_1  r43hc72bb7e_0         conda-forge       12MB
+  + r-biglm                                   0.9_3  r43hb67ce94_2         conda-forge       86kB
+  + r-bit                                     4.6.0  r43h2b5f3a1_0         conda-forge      609kB
+  + r-bit64                                 4.6.0_1  r43h2b5f3a1_0         conda-forge      494kB
+  + r-bitops                                  1.0_9  r43h2b5f3a1_0         conda-forge       45kB
+  + r-blob                                    1.2.4  r43hc72bb7e_2         conda-forge       66kB
+  + r-cachem                                  1.1.0  r43hb1dbf0f_1         conda-forge       75kB
+  + r-cli                                     3.6.5  r43h93ab643_0         conda-forge        1MB
+  + r-coda                                 0.19_4.1  r43hc72bb7e_1         conda-forge      335kB
+  + r-codetools                              0.2_20  r43hc72bb7e_1         conda-forge      109kB
+  + r-colorspace                              2.1_1  r43hdb488b9_0         conda-forge        3MB
+  + r-cpp11                                   0.5.2  r43h785f33e_1         conda-forge      234kB
+  + r-crayon                                  1.5.3  r43hc72bb7e_1         conda-forge      166kB
+  + r-curl                                    7.0.0  r43h10955f1_0         conda-forge      478kB
+  + r-data.table                             1.17.8  r43h1c8cec4_0         conda-forge        2MB
+  + r-dbi                                     1.2.3  r43hc72bb7e_1         conda-forge      848kB
+  + r-dbplyr                                  2.5.1  r43hc72bb7e_0         conda-forge        1MB
+  + r-digest                                 0.6.37  r43h0d4f4ea_0         conda-forge      215kB
+  + r-dplyr                                   1.1.4  r43h0d4f4ea_1         conda-forge        1MB
+  + r-ellipsis                                0.3.2  r43hb1dbf0f_3         conda-forge       43kB
+  + r-emdbook                                1.3.14  r43hc72bb7e_0         conda-forge      223kB
+  + r-etrunct                                   0.1  r43hc72bb7e_1006      conda-forge       19kB
+  + r-fansi                                   1.0.6  r43hb1dbf0f_1         conda-forge      317kB
+  + r-farver                                  2.1.2  r43ha18555a_1         conda-forge        1MB
+  + r-fastmap                                 1.2.0  r43ha18555a_1         conda-forge       73kB
+  + r-filelock                                1.0.3  r43hb1dbf0f_1         conda-forge       33kB
+  + r-findpython                              1.0.9  r43hc72bb7e_0         conda-forge       30kB
+  + r-formatr                                  1.14  r43hc72bb7e_2         conda-forge      165kB
+  + r-futile.logger                           1.4.3  r43hc72bb7e_1006      conda-forge      104kB
+  + r-futile.options                          1.0.1  r43hc72bb7e_1005      conda-forge       29kB
+  + r-generics                                0.1.4  r43hc72bb7e_0         conda-forge       86kB
+  + r-ggplot2                                 3.5.2  r43hc72bb7e_0         conda-forge        5MB
+  + r-glue                                    1.8.0  r43h2b5f3a1_0         conda-forge      162kB
+  + r-gtable                                  0.3.6  r43hc72bb7e_0         conda-forge      227kB
+  + r-hms                                     1.1.3  r43hc72bb7e_2         conda-forge      108kB
+  + r-httr                                    1.4.7  r43hc72bb7e_1         conda-forge      469kB
+  + r-invgamma                                  1.2  r43hc72bb7e_0         conda-forge       40kB
+  + r-irlba                                 2.3.5.1  r43h0d28552_3         conda-forge      306kB
+  + r-isoband                                 0.2.7  r43ha18555a_3         conda-forge        2MB
+  + r-jsonlite                                2.0.0  r43h2b5f3a1_0         conda-forge      636kB
+  + r-labeling                                0.4.3  r43hc72bb7e_1         conda-forge       69kB
+  + r-lambda.r                                1.2.4  r43hc72bb7e_4         conda-forge      120kB
+  + r-lattice                                0.22_7  r43h2b5f3a1_0         conda-forge        1MB
+  + r-lifecycle                               1.0.4  r43hc72bb7e_1         conda-forge      122kB
+  + r-lmtest                                 0.9_40  r43hbcb9c34_3         conda-forge      411kB
+  + r-locfit                               1.5_9.12  r43h2b5f3a1_0         conda-forge      556kB
+  + r-magrittr                                2.0.3  r43hb1dbf0f_3         conda-forge      209kB
+  + r-mass                               7.3_60.0.1  r43hb1dbf0f_1         conda-forge        1MB
+  + r-matrix                                  1.6_5  r43he966344_1         conda-forge        4MB
+  + r-matrixstats                             1.5.0  r43h2b5f3a1_0         conda-forge      461kB
+  + r-mclust                                  6.1.1  r43hc29710b_0         conda-forge        4MB
+  + r-memoise                                 2.0.1  r43hc72bb7e_3         conda-forge       56kB
+  + r-mgcv                                    1.9_3  r43h2ae2be5_0         conda-forge        3MB
+  + r-mime                                     0.13  r43h2b5f3a1_0         conda-forge       65kB
+  + r-mixsqp                                 0.3_54  r43hb79369c_3         conda-forge      208kB
+  + r-munsell                                 0.5.1  r43hc72bb7e_1         conda-forge      246kB
+  + r-mvtnorm                                 1.3_3  r43h9ad1c49_0         conda-forge      934kB
+  + r-nlme                                  3.1_168  r43hb67ce94_0         conda-forge        2MB
+  + r-numderiv                           2016.8_1.1  r43hc72bb7e_6         conda-forge      127kB
+  + r-openssl                                 2.3.3  r43he8289e2_0         conda-forge      688kB
+  + r-pillar                                 1.11.0  r43hc72bb7e_0         conda-forge      627kB
+  + r-pkgconfig                               2.0.3  r43hc72bb7e_4         conda-forge       26kB
+  + r-plogr                                   0.2.0  r43hc72bb7e_1006      conda-forge       22kB
+  + r-plyr                                    1.8.9  r43h3697838_2         conda-forge      824kB
+  + r-png                                     0.1_8  r43h21f035c_2         conda-forge       60kB
+  + r-prettyunits                             1.2.0  r43hc72bb7e_1         conda-forge      163kB
+  + r-progress                                1.2.3  r43hc72bb7e_1         conda-forge       94kB
+  + r-purrr                                   1.1.0  r43h54b55ab_0         conda-forge      538kB
+  + r-r6                                      2.6.1  r43hc72bb7e_0         conda-forge       94kB
+  + r-rappdirs                                0.3.3  r43hb1dbf0f_3         conda-forge       52kB
+  + r-rcolorbrewer                            1.1_3  r43h785f33e_3         conda-forge       68kB
+  + r-rcpp                                    1.1.0  r43h93ab643_0         conda-forge        2MB
+  + r-rcpparmadillo                        15.0.2_1  r43h3704496_0         conda-forge        1MB
+  + r-rcppeigen                           0.3.4.0.2  r43hb79369c_0         conda-forge        1MB
+  + r-rcppnumerical                           0.6_0  r43h0d4f4ea_1         conda-forge      225kB
+  + r-rcurl                               1.98_1.17  r43hb79926e_0         conda-forge      822kB
+  + r-restfulr                               0.0.15  r43h56115f1_4         bioconda         438kB
+  + r-rjson                                  0.2.23  r43h93ab643_0         conda-forge      118kB
+  + r-rlang                                   1.1.6  r43h93ab643_0         conda-forge        2MB
+  + r-rsqlite                                 2.4.3  r43h3697838_0         conda-forge        1MB
+  + r-sandwich                                3.1_1  r43hc72bb7e_0         conda-forge        1MB
+  + r-scales                                  1.4.0  r43hc72bb7e_0         conda-forge      760kB
+  + r-snow                                    0.4_4  r43hc72bb7e_3         conda-forge      115kB
+  + r-speedglm                                0.3_5  r43hc72bb7e_2         conda-forge      212kB
+  + r-squarem                                2021.1  r43hc72bb7e_3         conda-forge      195kB
+  + r-stringi                                 1.8.7  r43h3c328a7_0         conda-forge      905kB
+  + r-stringr                                 1.5.2  r43h785f33e_0         conda-forge      298kB
+  + r-sys                                     3.4.3  r43h2b5f3a1_0         conda-forge       49kB
+  + r-tibble                                  3.3.0  r43h2b5f3a1_0         conda-forge      615kB
+  + r-tidyr                                   1.3.1  r43h0d4f4ea_1         conda-forge        1MB
+  + r-tidyselect                              1.2.1  r43hc72bb7e_1         conda-forge      216kB
+  + r-truncnorm                               1.0_9  r43h2b5f3a1_4         conda-forge       41kB
+  + r-utf8                                    1.2.6  r43h2b5f3a1_0         conda-forge      146kB
+  + r-vctrs                                   0.6.5  r43h0d4f4ea_1         conda-forge        1MB
+  + r-viridislite                             0.4.2  r43hc72bb7e_2         conda-forge        1MB
+  + r-withr                                   3.0.2  r43hc72bb7e_0         conda-forge      231kB
+  + r-xml                                 3.99_0.17  r43h5bae778_2         conda-forge        2MB
+  + r-xml2                                    1.4.0  r43hc6fd541_0         conda-forge      349kB
+  + r-yaml                                   2.3.10  r43hdb488b9_0         conda-forge      119kB
+  + r-zoo                                    1.8_14  r43h2b5f3a1_0         conda-forge        1MB
+  + readline                                    8.3  hd6e31c0_1            conda-forge     Cached
+  + sed                                        4.10  h19d0853_0            conda-forge      268kB
+  + sysroot_linux-64                           2.39  hc4b9eeb_6            conda-forge       42MB
+  + tk                                       8.6.13  noxft_h1df4ec4_4      conda-forge     Cached
+  + tktable                                    2.10  h0eb2ad0_10           conda-forge      104kB
+  + tomlkit                                  0.15.1  pyhcf101f3_0          conda-forge       49kB
+  + tzdata                                    2026c  h151e31d_0            conda-forge     Cached
+  + xmltodict                                 1.0.4  pyhcf101f3_0          conda-forge       21kB
+  + xorg-libice                               1.1.2  h280c20c_0            conda-forge     Cached
+  + xorg-libsm                                1.2.6  h0d788c3_1            conda-forge     Cached
+  + xorg-libx11                              1.8.13  he1eb515_1            conda-forge     Cached
+  + xorg-libxau                              1.0.12  h7cc23a3_2            conda-forge     Cached
+  + xorg-libxdmcp                             1.1.5  hb03c661_2            conda-forge     Cached
+  + xorg-libxext                              1.3.7  h7cc23a3_1            conda-forge     Cached
+  + xorg-libxrender                          0.9.12  hb03c661_1            conda-forge     Cached
+  + xorg-libxt                                1.3.1  h7cc23a3_1            conda-forge     Cached
+  + yaml                                      0.2.5  hebe6cf0_3            conda-forge     Cached
+  + yq                                        4.1.2  pyhcf101f3_1          conda-forge       33kB
+  + zstd                                      1.5.7  hb78ec9c_7            conda-forge     Cached
+
+  Summary:
+
+  Install: 241 packages
+
+  Total download: 399MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking libzlib-1.3.2-h25fd6f3_3
+Linking libgomp-16.2.0-he0feb66_4
+Linking zstd-1.5.7-hb78ec9c_7
+Linking _openmp_mutex-4.5-20_gnu
+Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_102
+Linking libgcc-16.2.0-ha9f2e26_4
+Linking oniguruma-6.9.10-hebe6cf0_1
+Linking xorg-libxau-1.0.12-h7cc23a3_2
+Linking yaml-0.2.5-hebe6cf0_3
+Linking xorg-libice-1.1.2-h280c20c_0
+Linking libev-4.33-h280c20c_3
+Linking c-ares-1.34.8-hebe6cf0_2
+Linking xorg-libxdmcp-1.1.5-hb03c661_2
+Linking pthread-stubs-0.4-h7cc23a3_1004
+Linking keyutils-1.6.3-h7cc23a3_1
+Linking libwebp-base-1.6.0-hd42ef1d_1
+Linking libdeflate-1.25-hd45a770_1
+Linking fribidi-1.0.16-h7cc23a3_2
+Linking ncurses-6.6-hdb14827_1
+Linking libsqlite-3.53.4-h0737f62_1
+Linking libmpdec-4.0.0-hb03c661_2
+Linking libffi-3.7.0-h81df57d_1
+Linking tk-8.6.13-noxft_h1df4ec4_4
+Linking sed-4.10-h19d0853_0
+Linking make-4.4.1-hb03c661_3
+Linking libjpeg-turbo-3.2.0-hb03c661_1
+Linking libiconv-1.18-h0cb94f2_3
+Linking libexpat-2.8.1-hecca717_1
+Linking bzip2-1.0.8-hda65f42_10
+Linking libgfortran5-16.2.0-h6b99dfc_4
+Linking libpng-1.6.58-h922cc85_1
+Linking liblzma-5.8.3-hb03c661_1
+Linking libuuid-2.42.3-hcfc3c73_0
+Linking libstdcxx-16.2.0-h934c35e_4
+Linking libgcc-ng-16.2.0-h69a702a_4
+Linking jq-1.8.2-h280c20c_1
+Linking libxcb-1.17.0-hb83e432_2
+Linking libedit-3.1.20250104-pl5321h373387f_1
+Linking readline-8.3-hd6e31c0_1
+Linking bwidget-1.10.1-hfc2019e_3
+Linking pcre2-10.47-h8b3dc9c_1
+Linking libgfortran-16.2.0-h69a702a_4
+Linking libfreetype6-2.14.3-h5e6c136_2
+Linking xorg-libsm-1.2.6-h0d788c3_1
+Linking graphite2-1.3.15-h54a6638_1
+Linking pixman-0.46.4-h54a6638_3
+Linking lerc-4.2.0-hdb68285_0
+Linking libsanitizer-16.2.0-h3048135_4
+Linking libpython-3.14.7-hdc7f604_106_cp314
+Linking libstdcxx-ng-16.2.0-hdf11a46_4
+Linking xorg-libx11-1.8.13-he1eb515_1
+Linking libglib-2.88.3-h569388d_4
+Linking libopenblas-0.3.34-pthreads_hcf972fe_1
+Linking libgfortran-ng-16.2.0-h69a702a_4
+Linking libfreetype-2.14.3-ha770c72_2
+Linking libtiff-4.7.2-hcc2c06a_1
+Linking icu-75.1-he02047a_0
+Linking xorg-libxrender-0.9.12-hb03c661_1
+Linking xorg-libxext-1.3.7-h7cc23a3_1
+Linking xorg-libxt-1.3.1-h7cc23a3_1
+Linking tktable-2.10-h0eb2ad0_10
+Linking libblas-3.11.0-10_h4a7cf45_openblas
+Linking freetype-2.14.3-ha770c72_2
+Linking fontconfig-2.18.3-h4db4eae_1
+Linking libxml2-2.13.9-h04c0eec_0
+Linking libcblas-3.11.0-10_h0358290_openblas
+Linking liblapack-3.11.0-10_h47877c9_openblas
+Linking gsl-2.7-he838d99_0
+Linking libgcc-devel_linux-64-16.2.0-he3ce08f_104
+Linking libstdcxx-devel_linux-64-16.2.0-h86e191b_104
+Linking _r-mutex-1.0.1-anacondar_1
+Linking tzdata-2026c-h151e31d_0
+Linking python_abi-3.14-9_cp314
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking kernel-headers_linux-64-6.12.0-he073ed8_6
+Linking font-ttf-ubuntu-0.83-h77eed37_3
+Linking font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+Linking font-ttf-inconsolata-3.000-h77eed37_0
+Linking font-ttf-source-code-pro-2.038-h77eed37_0
+Linking sysroot_linux-64-2.39-hc4b9eeb_6
+Linking fonts-conda-forge-1-hc364b38_1
+Linking fonts-conda-ecosystem-1-0
+Linking openssl-3.6.4-h781a0a9_0
+Linking binutils_impl_linux-64-2.46.1-default_hfdba357_102
+Linking cairo-1.18.4-h3394656_0
+Linking libssh2-1.11.1-h6154650_1
+Linking libnghttp2-1.68.1-h74cf4be_1
+Linking krb5-1.22.2-hbc21106_2
+Linking python-3.14.7-hcd007b5_106_cp314
+Linking gcc_impl_linux-64-16.2.0-h176d5d0_4
+Linking harfbuzz-12.2.0-h15599e2_0
+Linking libcurl-8.21.0-hcf29cc6_1
+Linking gfortran_impl_linux-64-16.2.0-hf930d89_4
+Linking gxx_impl_linux-64-16.2.0-h0d273dc_4
+Linking pango-1.56.4-hadf4263_0
+Linking curl-8.21.0-hcf29cc6_1
+Linking r-base-4.3.3-hc28aa72_21
+Linking r-fastmap-1.2.0-r43ha18555a_1
+Linking r-colorspace-2.1_1-r43hdb488b9_0
+Linking r-utf8-1.2.6-r43h2b5f3a1_0
+Linking r-farver-2.1.2-r43ha18555a_1
+Linking r-yaml-2.3.10-r43hdb488b9_0
+Linking r-rjson-0.2.23-r43h93ab643_0
+Linking r-truncnorm-1.0_9-r43h2b5f3a1_4
+Linking r-sys-3.4.3-r43h2b5f3a1_0
+Linking r-bit-4.6.0-r43h2b5f3a1_0
+Linking r-fansi-1.0.6-r43hb1dbf0f_1
+Linking r-mvtnorm-1.3_3-r43h9ad1c49_0
+Linking r-bdsmatrix-1.3_7-r43h2b5f3a1_2
+Linking r-lattice-0.22_7-r43h2b5f3a1_0
+Linking r-isoband-0.2.7-r43ha18555a_3
+Linking r-mime-0.13-r43h2b5f3a1_0
+Linking r-jsonlite-2.0.0-r43h2b5f3a1_0
+Linking r-mass-7.3_60.0.1-r43hb1dbf0f_1
+Linking r-stringi-1.8.7-r43h3c328a7_0
+Linking r-rlang-1.1.6-r43h93ab643_0
+Linking r-glue-1.8.0-r43h2b5f3a1_0
+Linking r-cli-3.6.5-r43h93ab643_0
+Linking r-rcpp-1.1.0-r43h93ab643_0
+Linking r-bitops-1.0_9-r43h2b5f3a1_0
+Linking r-filelock-1.0.3-r43hb1dbf0f_1
+Linking r-curl-7.0.0-r43h10955f1_0
+Linking r-xml-3.99_0.17-r43h5bae778_2
+Linking r-rappdirs-0.3.3-r43hb1dbf0f_3
+Linking r-digest-0.6.37-r43h0d4f4ea_0
+Linking r-mclust-6.1.1-r43hc29710b_0
+Linking r-magrittr-2.0.3-r43hb1dbf0f_3
+Linking r-png-0.1_8-r43h21f035c_2
+Linking r-matrixstats-1.5.0-r43h2b5f3a1_0
+Linking r-data.table-1.17.8-r43h1c8cec4_0
+Linking r-askpass-1.2.1-r43h2b5f3a1_0
+Linking r-bit64-4.6.0_1-r43h2b5f3a1_0
+Linking r-nlme-3.1_168-r43hb67ce94_0
+Linking r-zoo-1.8_14-r43h2b5f3a1_0
+Linking r-locfit-1.5_9.12-r43h2b5f3a1_0
+Linking r-matrix-1.6_5-r43he966344_1
+Linking r-cachem-1.1.0-r43hb1dbf0f_1
+Linking r-ellipsis-0.3.2-r43hb1dbf0f_3
+Linking r-xml2-1.4.0-r43hc6fd541_0
+Linking r-plyr-1.8.9-r43h3697838_2
+Linking r-rcpparmadillo-15.0.2_1-r43h3704496_0
+Linking r-rcurl-1.98_1.17-r43hb79926e_0
+Linking r-openssl-2.3.3-r43he8289e2_0
+Linking r-lmtest-0.9_40-r43hbcb9c34_3
+Linking r-irlba-2.3.5.1-r43h0d28552_3
+Linking r-mgcv-1.9_3-r43h2ae2be5_0
+Linking r-rcppeigen-0.3.4.0.2-r43hb79369c_0
+Linking r-mixsqp-0.3_54-r43hb79369c_3
+Linking r-rcppnumerical-0.6_0-r43h0d4f4ea_1
+Linking pip-26.2.1-pyh145f28c_0
+Linking r-formatr-1.14-r43hc72bb7e_2
+Linking r-viridislite-0.4.2-r43hc72bb7e_2
+Linking r-rcolorbrewer-1.1_3-r43h785f33e_3
+Linking r-labeling-0.4.3-r43hc72bb7e_1
+Linking r-invgamma-1.2-r43hc72bb7e_0
+Linking r-squarem-2021.1-r43hc72bb7e_3
+Linking r-etrunct-0.1-r43hc72bb7e_1006
+Linking r-generics-0.1.4-r43hc72bb7e_0
+Linking r-plogr-0.2.0-r43hc72bb7e_1006
+Linking r-findpython-1.0.9-r43hc72bb7e_0
+Linking r-numderiv-2016.8_1.1-r43hc72bb7e_6
+Linking r-futile.options-1.0.1-r43hc72bb7e_1005
+Linking r-withr-3.0.2-r43hc72bb7e_0
+Linking r-pkgconfig-2.0.3-r43hc72bb7e_4
+Linking r-assertthat-0.2.1-r43hc72bb7e_5
+Linking r-r6-2.6.1-r43hc72bb7e_0
+Linking r-cpp11-0.5.2-r43h785f33e_1
+Linking r-snow-0.4_4-r43hc72bb7e_3
+Linking r-codetools-0.2_20-r43hc72bb7e_1
+Linking r-bh-1.87.0_1-r43hc72bb7e_0
+Linking r-crayon-1.5.3-r43hc72bb7e_1
+Linking r-abind-1.4_5-r43hc72bb7e_1006
+Linking r-dbi-1.2.3-r43hc72bb7e_1
+Linking r-munsell-0.5.1-r43hc72bb7e_1
+Linking r-coda-0.19_4.1-r43hc72bb7e_1
+Linking r-lifecycle-1.0.4-r43hc72bb7e_1
+Linking r-sandwich-3.1_1-r43hc72bb7e_0
+Linking r-memoise-2.0.1-r43hc72bb7e_3
+Linking tomlkit-0.15.1-pyhcf101f3_0
+Linking xmltodict-1.0.4-pyhcf101f3_0
+Linking argcomplete-3.7.2-pyhcf101f3_0
+Linking r-lambda.r-1.2.4-r43hc72bb7e_4
+Linking r-bbmle-1.0.25.1-r43hc72bb7e_1
+Linking r-prettyunits-1.2.0-r43hc72bb7e_1
+Linking r-httr-1.4.7-r43hc72bb7e_1
+Linking r-argparse-2.2.5-r43hc72bb7e_0
+Linking r-scales-1.4.0-r43hc72bb7e_0
+Linking r-gtable-0.3.6-r43hc72bb7e_0
+Linking r-futile.logger-1.4.3-r43hc72bb7e_1006
+Linking r-emdbook-1.3.14-r43hc72bb7e_0
+Linking bioconductor-zlibbioc-1.48.0-r43ha9d7317_2
+Linking bioconductor-biocparallel-1.36.0-r43hf17093f_2
+Linking bioconductor-rhtslib-2.4.0-r43ha9d7317_2
+Linking bioconductor-biocgenerics-0.48.1-r43hdfd78af_2
+Linking bioconductor-matrixgenerics-1.14.0-r43hdfd78af_3
+Linking pyyaml-6.0.3-py314h67df5f8_1
+Linking r-ashr-2.2_63-r43h93ab643_2
+Linking r-biglm-0.9_3-r43hb67ce94_2
+Linking r-vctrs-0.6.5-r43h0d4f4ea_1
+Linking r-purrr-1.1.0-r43h54b55ab_0
+Linking bioconductor-s4vectors-0.40.2-r43ha9d7317_2
+Linking bioconductor-biobase-2.62.0-r43ha9d7317_3
+Linking r-restfulr-0.0.15-r43h56115f1_4
+Linking bioconductor-iranges-2.36.0-r43ha9d7317_2
+Linking bioconductor-xvector-0.42.0-r43ha9d7317_2
+Linking bioconductor-s4arrays-1.2.0-r43ha9d7317_2
+Linking bioconductor-sparsearray-1.2.2-r43ha9d7317_2
+Linking bioconductor-delayedarray-0.28.0-r43ha9d7317_2
+Linking yq-4.1.2-pyhcf101f3_1
+Linking r-speedglm-0.3_5-r43hc72bb7e_2
+Linking r-tidyselect-1.2.1-r43hc72bb7e_1
+Linking r-pillar-1.11.0-r43hc72bb7e_0
+Linking r-blob-1.2.4-r43hc72bb7e_2
+Linking r-hms-1.1.3-r43hc72bb7e_2
+Linking r-stringr-1.5.2-r43h785f33e_0
+Linking r-progress-1.2.3-r43hc72bb7e_1
+Linking bioconductor-biocio-1.12.0-r43hdfd78af_0
+Linking bioconductor-data-packages-20260207-hdfd78af_1
+Linking bioconductor-genomeinfodbdata-1.2.11-r43hdfd78af_1
+++ dirname -- /home/xi/tmp/miniforge3/envs/rm6a/bin/installBiocDataPackage.sh
++ SCRIPT_DIR=/home/xi/tmp/miniforge3/envs/rm6a/bin/../share/bioconductor-data-packages
++ json=/home/xi/tmp/miniforge3/envs/rm6a/bin/../share/bioconductor-data-packages/dataURLs.json
+++ yq '."genomeinfodbdata-1.2.11".fn' /home/xi/tmp/miniforge3/envs/rm6a/bin/../share/bioconductor-data-packages/dataURLs.json
++ FN='"GenomeInfoDbData_1.2.11.tar.gz"'
++ IFS=
++ read -r value
+++ yq '."genomeinfodbdata-1.2.11".urls[]' /home/xi/tmp/miniforge3/envs/rm6a/bin/../share/bioconductor-data-packages/dataURLs.json
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
+++ yq '."genomeinfodbdata-1.2.11".md5' /home/xi/tmp/miniforge3/envs/rm6a/bin/../share/bioconductor-data-packages/dataURLs.json
++ MD5='"2a4cbfc2031992fed3c9445f450890a2"'
++ STAGING=/home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11
++ mkdir -p /home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11
++ TARBALL='/home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11/"GenomeInfoDbData_1.2.11.tar.gz"'
++ SUCCESS=0
++ for URL in ${URLS[@]}
+++ echo '"https://bioconductor.org/packages/3.18/data/annotation/src/contrib/GenomeInfoDbData_1.2.11.tar.gz"'
+++ tr -d '"'
++ URL=https://bioconductor.org/packages/3.18/data/annotation/src/contrib/GenomeInfoDbData_1.2.11.tar.gz
+++ echo '"2a4cbfc2031992fed3c9445f450890a2"'
+++ tr -d '"'
++ MD5=2a4cbfc2031992fed3c9445f450890a2
++ curl -L https://bioconductor.org/packages/3.18/data/annotation/src/contrib/GenomeInfoDbData_1.2.11.tar.gz
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100    416 100    416   0      0   8697      0                              0100    416 100    416   0      0   8694      0                              0
+  0      0   0      0   0      0      0      0                              0 93 11.71M  93 10.93M   0      0  6.97M      0   00:01   00:01         10.94M100 11.71M 100 11.71M   0      0  7.25M      0   00:01   00:01         10.94M100 11.71M 100 11.71M   0      0  7.25M      0   00:01   00:01         10.94M100 11.71M 100 11.71M   0      0  7.25M      0   00:01   00:01         10.94M
++ [[ 0 == 0 ]]
+++ uname -s
++ [[ Linux == \L\i\n\u\x ]]
++ md5sum -c
+/home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11/"GenomeInfoDbData_1.2.11.tar.gz": OK
++ SUCCESS=1
++ break
++ [[ 1 != 1 ]]
++ R CMD INSTALL --library=/home/xi/tmp/miniforge3/envs/rm6a/lib/R/library '/home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11/"GenomeInfoDbData_1.2.11.tar.gz"'
+* installing *source* package ‘GenomeInfoDbData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomeInfoDbData)
++ rm '/home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11/"GenomeInfoDbData_1.2.11.tar.gz"'
++ rmdir /home/xi/tmp/miniforge3/envs/rm6a/share/genomeinfodbdata-1.2.11
+
+Linking bioconductor-genomeinfodb-1.38.1-r43hdfd78af_1
+Linking r-tibble-3.3.0-r43h2b5f3a1_0
+Linking r-rsqlite-2.4.3-r43h3697838_0
+Linking r-dplyr-1.1.4-r43h0d4f4ea_1
+Linking r-tidyr-1.3.1-r43h0d4f4ea_1
+Linking bioconductor-biostrings-2.70.1-r43ha9d7317_2
+Linking bioconductor-genomicranges-1.54.1-r43ha9d7317_2
+Linking bioconductor-rsamtools-2.18.0-r43hf17093f_2
+Linking r-ggplot2-3.5.2-r43hc72bb7e_0
+Linking r-dbplyr-2.5.1-r43hc72bb7e_0
+Linking bioconductor-keggrest-1.42.0-r43hdfd78af_0
+Linking bioconductor-summarizedexperiment-1.32.0-r43hdfd78af_0
+Linking bioconductor-biocfilecache-2.10.1-r43hdfd78af_0
+Linking bioconductor-annotationdbi-1.64.1-r43hdfd78af_0
+Linking bioconductor-biomart-2.58.0-r43hdfd78af_0
+Linking bioconductor-apeglm-1.24.0-r43hf17093f_1
+Linking bioconductor-genomicalignments-1.38.0-r43ha9d7317_1
+Linking bioconductor-deseq2-1.42.0-r43hf17093f_2
+Linking bioconductor-rtracklayer-1.62.0-r43ha9d7317_1
+Linking bioconductor-genomicfeatures-1.54.1-r43hdfd78af_0
+Linking bioconductor-bsgenome-1.70.1-r43hdfd78af_0
+Linking bioconductor-exomepeak2-1.14.3-r43hdfd78af_0
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    mamba activate rm6a
+
+Or to execute a single command in this environment, use:
+
+    mamba run -n rm6a mycommand
+
+=== DONE Thu Sep 10 02:32:28 PM CEST 2026 ===

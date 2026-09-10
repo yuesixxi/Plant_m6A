@@ -3,8 +3,8 @@
 # Usage: p2_run_rnaplfold.sh <workdir_with_transcripts.fa> [n_jobs]
 # Output: <workdir>/lunp/<txid>_lunp  (per-sequence unpaired-probability profiles)
 set -u
-source /home/jxun/miniforge3/etc/profile.d/conda.sh
-conda activate colabfold
+source /home/xi/tmp/miniforge3/etc/profile.d/conda.sh
+conda activate m6a
 
 WD="$1"; NJ=${2:-4}   # 11GB RAM WSL: keep parallel low
 mkdir -p "$WD/lunp" "$WD/chunks"
@@ -12,7 +12,7 @@ mkdir -p "$WD/lunp" "$WD/chunks"
 # split fasta into chunks (skip already-computed)
 cd "$WD"
 [ -f chunks/done.split ] || {
-  /home/jxun/miniforge3/envs/colabfold/bin/python - "$WD" << 'EOF'
+  /home/xi/tmp/miniforge3/envs/m6a/bin/python - "$WD" << 'EOF'
 import sys, os
 from Bio import SeqIO
 wd = sys.argv[1]

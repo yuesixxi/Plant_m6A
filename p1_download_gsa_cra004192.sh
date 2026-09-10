@@ -2,10 +2,10 @@
 # Download GSA CRA004192 (PRJCA005164, Tang et al. 2021, alkbh10b ABA MeRIP) from China NGDC mirror
 # 8 runs PE150: Col0 input/IP x2, alkbh10b input/IP x2
 set -u
-source /home/jxun/miniforge3/etc/profile.d/conda.sh
+source /home/xi/tmp/miniforge3/etc/profile.d/conda.sh
 conda activate m6a
 
-BASE=/mnt/j/m6A_plant_data/PRJCA005164
+BASE=/home/xi/tmp/plant_m6A_data/PRJCA005164
 mkdir -p "$BASE/fastq"
 cd "$BASE/fastq"
 
