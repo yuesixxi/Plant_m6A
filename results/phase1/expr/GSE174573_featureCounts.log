@@ -1,0 +1,212 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 24 BAM files                                     ||
+||                                                                            ||
+||                           SRR14570256.sorted.bam                           ||
+||                           SRR14570257.sorted.bam                           ||
+||                           SRR14570258.sorted.bam                           ||
+||                           SRR14570259.sorted.bam                           ||
+||                           SRR14570260.sorted.bam                           ||
+||                           SRR14570261.sorted.bam                           ||
+||                           SRR14570262.sorted.bam                           ||
+||                           SRR14570263.sorted.bam                           ||
+||                           SRR14570264.sorted.bam                           ||
+||                           SRR14570265.sorted.bam                           ||
+||                           SRR14570266.sorted.bam                           ||
+||                           SRR14570267.sorted.bam                           ||
+||                           SRR14570268.sorted.bam                           ||
+||                           SRR14570269.sorted.bam                           ||
+||                           SRR14570270.sorted.bam                           ||
+||                           SRR14570271.sorted.bam                           ||
+||                           SRR14570272.sorted.bam                           ||
+||                           SRR14570273.sorted.bam                           ||
+||                           SRR14570274.sorted.bam                           ||
+||                           SRR14570275.sorted.bam                           ||
+||                           SRR14570276.sorted.bam                           ||
+||                           SRR14570277.sorted.bam                           ||
+||                           SRR14570278.sorted.bam                           ||
+||                           SRR14570279.sorted.bam                           ||
+||                                                                            ||
+||             Output file : GSE174573_gene_counts.txt                        ||
+||                 Summary : GSE174573_gene_counts.txt.summary                ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : ath_TAIR10.gtf (GTF)                             ||
+||      Dir for temp files : /home/xi/tmp/plant_m6A/results/phase1/expr       ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file ath_TAIR10.gtf ...                                    ||
+||    Features : 313952                                                       ||
+||    Meta-features : 32833                                                   ||
+||    Chromosomes/contigs : 7                                                 ||
+||                                                                            ||
+|| Process BAM file SRR14570256.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34068817                                             ||
+||    Successfully assigned alignments : 6364757 (18.7%)                      ||
+||    Running time : 1.52 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570257.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27175290                                             ||
+||    Successfully assigned alignments : 9424053 (34.7%)                      ||
+||    Running time : 0.76 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570258.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35719983                                             ||
+||    Successfully assigned alignments : 15430293 (43.2%)                     ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570259.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27785076                                             ||
+||    Successfully assigned alignments : 18946466 (68.2%)                     ||
+||    Running time : 0.41 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570260.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45684662                                             ||
+||    Successfully assigned alignments : 17071305 (37.4%)                     ||
+||    Running time : 2.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570261.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35174716                                             ||
+||    Successfully assigned alignments : 23429348 (66.6%)                     ||
+||    Running time : 0.66 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570262.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31996294                                             ||
+||    Successfully assigned alignments : 3367030 (10.5%)                      ||
+||    Running time : 1.97 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570263.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 19161485                                             ||
+||    Successfully assigned alignments : 2977226 (15.5%)                      ||
+||    Running time : 0.79 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570264.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28419864                                             ||
+||    Successfully assigned alignments : 6533601 (23.0%)                      ||
+||    Running time : 1.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570265.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20420022                                             ||
+||    Successfully assigned alignments : 6134620 (30.0%)                      ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570266.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30386076                                             ||
+||    Successfully assigned alignments : 2956817 (9.7%)                       ||
+||    Running time : 1.79 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570267.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28094489                                             ||
+||    Successfully assigned alignments : 2533909 (9.0%)                       ||
+||    Running time : 0.70 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570268.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 19510075                                             ||
+||    Successfully assigned alignments : 8189461 (42.0%)                      ||
+||    Running time : 0.54 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570269.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21001822                                             ||
+||    Successfully assigned alignments : 9740302 (46.4%)                      ||
+||    Running time : 0.38 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570270.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 15122511                                             ||
+||    Successfully assigned alignments : 4914423 (32.5%)                      ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570271.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 18120115                                             ||
+||    Successfully assigned alignments : 6681543 (36.9%)                      ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570272.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21699482                                             ||
+||    Successfully assigned alignments : 9100248 (41.9%)                      ||
+||    Running time : 0.66 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570273.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22258338                                             ||
+||    Successfully assigned alignments : 10723230 (48.2%)                     ||
+||    Running time : 0.46 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570274.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41580979                                             ||
+||    Successfully assigned alignments : 17455619 (42.0%)                     ||
+||    Running time : 1.20 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570275.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27708785                                             ||
+||    Successfully assigned alignments : 17131859 (61.8%)                     ||
+||    Running time : 0.54 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570276.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33323741                                             ||
+||    Successfully assigned alignments : 12842780 (38.5%)                     ||
+||    Running time : 0.79 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570277.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24142349                                             ||
+||    Successfully assigned alignments : 14116733 (58.5%)                     ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570278.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30907579                                             ||
+||    Successfully assigned alignments : 12474479 (40.4%)                     ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR14570279.sorted.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26935448                                             ||
+||    Successfully assigned alignments : 17333714 (64.4%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/xi/tmp/plant_m6A/  ||
+|| results/phase1/expr/GSE174573_gene_counts.txt.summary"                     ||
+||                                                                            ||
+\\============================================================================//
+

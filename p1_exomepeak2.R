@@ -11,8 +11,11 @@ stopifnot(length(args) == 6)
 tab_file <- args[1]; gff <- args[2]; genome <- args[3]
 ctrl <- args[4]; treat <- args[5]; outdir <- args[6]
 
-suppressMessages({library(exomePeak2); library(data.table)})
+suppressMessages({library(exomePeak2); library(data.table); library(GenomicFeatures)})
 set.seed(42)
+
+# Pre-build the TxDb explicitly (avoids exomePeak2's fragile auto format detection on Ensembl GTFs)
+txdb <- makeTxDbFromGFF(gff, format = "auto")
 
 tab <- fread(tab_file)
 stopifnot(all(c("sample","group","type","bam") %in% names(tab)))
@@ -37,11 +40,11 @@ res <- exomePeak2(
   bam_input         = bam_in_c,
   bam_ip_treated    = bam_ip_t,
   bam_input_treated = bam_in_t,
-  gff               = gff,
+  txdb              = txdb,
   genome            = genome,
   strandness        = "unstrand",   # featureCounts -s check: unstranded libraries
   fragment_length   = 100,          # fastp insert peak ~112 bp
-  parallel          = 1,            # 11GB RAM WSL: single worker (RSS ~6GB); 2 workers thrash swap
+  parallel          = 8,            # high-RAM rig1: 8 workers
   diff_p_cutoff     = 1,            # keep ALL tested peaks (default 0.01 drops nonsignificant!
                                     # regression needs the full site universe, not just hits)
   save_dir          = outdir,

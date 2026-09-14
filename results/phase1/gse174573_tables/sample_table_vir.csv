@@ -1,0 +1,13 @@
+sample,group,type,bam
+SRR14570256,WT,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570256.sorted.bam
+SRR14570257,WT,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570257.sorted.bam
+SRR14570258,WT,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570258.sorted.bam
+SRR14570259,WT,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570259.sorted.bam
+SRR14570260,WT,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570260.sorted.bam
+SRR14570261,WT,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570261.sorted.bam
+SRR14570268,vir,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570268.sorted.bam
+SRR14570269,vir,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570269.sorted.bam
+SRR14570270,vir,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570270.sorted.bam
+SRR14570271,vir,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570271.sorted.bam
+SRR14570272,vir,Input,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570272.sorted.bam
+SRR14570273,vir,IP,/home/xi/tmp/plant_m6A_data/GSE174573/bam/SRR14570273.sorted.bam

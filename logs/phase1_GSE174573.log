@@ -3892,3 +3892,9 @@ Status Legend:
 (OK):download completed.
 === SRR14570279 fastp ===
 === SRR14570279 hisat2 ===
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+=== done Thu Sep 10 05:29:42 PM CEST 2026 ok=23 fail=0 ===
+--- alignment rates ---
+--- failed ---
+SRR14570256 2 corrupt
+SRR14570256 noload

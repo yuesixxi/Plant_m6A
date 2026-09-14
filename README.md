@@ -33,7 +33,14 @@ Cross-species analysis of RNA structure selectivity of the m6A machinery — **A
 - [x] Phase 1 输入：经 ENA 构建 SRR↔基因型/IP-Input 映射，生成 `results/phase1/sample_table_{GSE174573,GSE79523,GSE227150}.csv`（计数符合预期）。
 - [ ] Phase 1 流式下载+比对：GSE174573（24 runs, ~33GB）已启动（persistent, 14 线程）。
 
+### 2026-09-10（续）— Phase 1 执行
+- [x] GSE174573：**24/24 BAM 完成**（对齐率 avg ~83%，多 run 54–94%；经剪接 index 对比测试确认低对齐是文库本身质量，非 index 问题，保留普通 index）。
+- [x] SRR14570256 补全：ENA 该 run mate2 为空目录，改用 NCBI SRA（prefetch+fasterq-dump）取全，对齐率 94.2%。
+- [x] **forge BSgenome.Athaliana.TAIR10**（Bioconductor 无此包，需自制；fix 了 seed 字段名、manual recreate inst/extdata）→ 已装入 rm6a。
+- [x] exomePeak2 适配：genome 改传 BSgenome 名；预建 TxDb（format="auto"）走 `txdb` 参数，绕开 exomePeak2 对 Ensembl GTF 的自动探测；`parallel=1→8`（377GB RAM）。
+- [ ] exomePeak2 peak calling 进行中（fip37 对比，parallel=8）。
+
 ### 待办
-- [ ] Phase 1：GSE174573 下完→peak calling（3 对比）+ featureCounts 表达 → 验证链
+- [ ] Phase 1：GSE174573 三个对比（fip37/vir/hakai）peak + featureCounts 表达 → 验证链（A1 位点≥2000）
 - [ ] Phase 1：GSE79523、GSE227150、PRJCA005164 依次处理
 - [ ] Phase 2+ 结构注释与回归（视 Phase 1 结果）

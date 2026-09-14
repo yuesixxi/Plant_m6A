@@ -1,0 +1,58 @@
+Import genomic features from the file as a GRanges object ... OK
+Prepare the 'metadata' data frame ... OK
+Make the TxDb object ... OK
+Warning message:
+In .get_cds_IDX(mcols0$type, mcols0$phase) :
+  The "phase" metadata column contains non-NA values for features of type
+  stop_codon. This information was ignored.
+Sample table:
+         sample  group   type
+         <char> <char> <char>
+ 1: SRR14570256     WT  INPUT
+ 2: SRR14570257     WT     IP
+ 3: SRR14570258     WT  INPUT
+ 4: SRR14570259     WT     IP
+ 5: SRR14570260     WT  INPUT
+ 6: SRR14570261     WT     IP
+ 7: SRR14570274  hakai  INPUT
+ 8: SRR14570275  hakai     IP
+ 9: SRR14570276  hakai  INPUT
+10: SRR14570277  hakai     IP
+11: SRR14570278  hakai  INPUT
+12: SRR14570279  hakai     IP
+ctrl(WT): 3 IP + 3 Input | treat(hakai): 3 IP + 3 Input
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+
+Attaching package: ‘rtracklayer’
+
+The following object is masked from ‘package:BiocIO’:
+
+    FileForFormat
+
+Extract bin features ... OK
+Count reads on bin features ... OK
+Identify background features ... OK
+Estimate sample sepecific size factors from the background ... OK
+Calculate bin GC contents on exons ... OK
+Fit GC curves with smoothing splines ... OK
+Calculate offset matrix for bins ... OK
+Detect peaks with GLM ... OK
+Count reads on peaks ... OK
+Calculate offset matrix for peaks ... OK
+Detect differentially modified peaks with interactive GLM ... OK
+Warning messages:
+1: In speedglm(y ~ ns(x, knots = gc.knots, Boundary.knots = gc.bk),  :
+  Maximum number of iterations reached without convergence
+2: In speedglm(y ~ ns(x, knots = gc.knots, Boundary.knots = gc.bk),  :
+  Maximum number of iterations reached without convergence
+result class: CompressedGRangesList 
+result slots: unlistData, elementMetadata, elementType, metadata, partitioning 
+NOTE: diff peaks not found in object slots; inspect exomePeak2_output dir CSVs
+[1] "diffPeaks.bed" "diffPeaks.csv" "diffPeaks.rds" "gc_fit.pdf"   
+DONE

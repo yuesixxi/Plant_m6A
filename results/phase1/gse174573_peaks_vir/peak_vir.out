@@ -1,0 +1,55 @@
+Import genomic features from the file as a GRanges object ... OK
+Prepare the 'metadata' data frame ... OK
+Make the TxDb object ... OK
+Warning message:
+In .get_cds_IDX(mcols0$type, mcols0$phase) :
+  The "phase" metadata column contains non-NA values for features of type
+  stop_codon. This information was ignored.
+Sample table:
+         sample  group   type
+         <char> <char> <char>
+ 1: SRR14570256     WT  INPUT
+ 2: SRR14570257     WT     IP
+ 3: SRR14570258     WT  INPUT
+ 4: SRR14570259     WT     IP
+ 5: SRR14570260     WT  INPUT
+ 6: SRR14570261     WT     IP
+ 7: SRR14570268    vir  INPUT
+ 8: SRR14570269    vir     IP
+ 9: SRR14570270    vir  INPUT
+10: SRR14570271    vir     IP
+11: SRR14570272    vir  INPUT
+12: SRR14570273    vir     IP
+ctrl(WT): 3 IP + 3 Input | treat(vir): 3 IP + 3 Input
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+
+Attaching package: ‘rtracklayer’
+
+The following object is masked from ‘package:BiocIO’:
+
+    FileForFormat
+
+Extract bin features ... OK
+Count reads on bin features ... Error in manager$availability[[as.character(result$node)]] <- TRUE : 
+  wrong args for environment subassignment
+Calls: exomePeak2 ... .bploop_impl -> .collect_result -> .manager_recv -> .manager_recv
+Error in serialize(data, node$con) : ignoring SIGPIPE signal
+Calls: exomePeak2 ... .send_to -> <Anonymous> -> sendData.SOCKnode -> serialize
+Execution halted
+Error in serialize(data, node$con) : error writing to connection
+Calls: <Anonymous> ... .send_to -> <Anonymous> -> sendData.SOCKnode -> serialize
+Error in serialize(data, node$con) : ignoring SIGPIPE signal
+Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
+Execution halted
+Error in serialize(data, node$con) : ignoring SIGPIPE signal
+Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
+Execution halted
+Error in serialize(data, node$con) : ignoring SIGPIPE signal
+Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
+Execution halted
