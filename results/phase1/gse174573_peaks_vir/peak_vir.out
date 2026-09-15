@@ -36,20 +36,25 @@ The following object is masked from ‘package:BiocIO’:
     FileForFormat
 
 Extract bin features ... OK
-Count reads on bin features ... Error in manager$availability[[as.character(result$node)]] <- TRUE : 
-  wrong args for environment subassignment
-Calls: exomePeak2 ... .bploop_impl -> .collect_result -> .manager_recv -> .manager_recv
-Error in serialize(data, node$con) : ignoring SIGPIPE signal
-Calls: exomePeak2 ... .send_to -> <Anonymous> -> sendData.SOCKnode -> serialize
-Execution halted
-Error in serialize(data, node$con) : error writing to connection
-Calls: <Anonymous> ... .send_to -> <Anonymous> -> sendData.SOCKnode -> serialize
-Error in serialize(data, node$con) : ignoring SIGPIPE signal
-Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
-Execution halted
-Error in serialize(data, node$con) : ignoring SIGPIPE signal
-Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
-Execution halted
-Error in serialize(data, node$con) : ignoring SIGPIPE signal
-Calls: local ... .send -> <Anonymous> -> sendData.SOCKnode -> serialize
-Execution halted
+Count reads on bin features ... OK
+Identify background features ... OK
+Estimate sample sepecific size factors from the background ... OK
+Calculate bin GC contents on exons ... OK
+Fit GC curves with smoothing splines ... OK
+Calculate offset matrix for bins ... OK
+Detect peaks with GLM ... OK
+Count reads on peaks ... OK
+Calculate offset matrix for peaks ... OK
+Detect differentially modified peaks with interactive GLM ... OK
+Warning messages:
+1: In speedglm(y ~ ns(x, knots = gc.knots, Boundary.knots = gc.bk),  :
+  Maximum number of iterations reached without convergence
+2: In speedglm(y ~ ns(x, knots = gc.knots, Boundary.knots = gc.bk),  :
+  Maximum number of iterations reached without convergence
+3: In speedglm(y ~ ns(x, knots = gc.knots, Boundary.knots = gc.bk),  :
+  Maximum number of iterations reached without convergence
+result class: CompressedGRangesList 
+result slots: unlistData, elementMetadata, elementType, metadata, partitioning 
+NOTE: diff peaks not found in object slots; inspect exomePeak2_output dir CSVs
+[1] "diffPeaks.bed" "diffPeaks.csv" "diffPeaks.rds" "gc_fit.pdf"   
+DONE
