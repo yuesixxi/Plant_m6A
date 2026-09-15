@@ -44,6 +44,10 @@ Cross-species analysis of RNA structure selectivity of the m6A machinery — **A
 ### Phase 1 — GSE79523（A2，进行中）
 - [ ] 下载+fastp+HISAT2（8 runs）进行中 → peak（WT vs alkbh10b）+ 表达 → GSE227150、PRJCA005164。
 
+### Phase 1 — 对比设计确认（2026-09-15）
+- **GSE227150**（24 runs）：mta vs WT（蓝光/黑暗分做）+ fio1 vs WT（蓝光为主、黑暗敏感性）→ 共 4 个对比。
+- **PRJCA005164**（CRA004192，8 runs，PE）：BioProject 页核实＝Col0/alkbh10b × IP/Input × 2 重复（均 ABA 处理）→ 单一对比 alkbh10b(ABA) vs Col0(ABA)；下载经 `download.cncb.ac.cn/gsa2/CRA004192`（CRR283802–809）；run↔样本映射下载时核对。
+
 ## 运行保障
 - rig1 常开联网；长任务用 persistent 后台进程（断 VS Code 不中断）。
 - 每次完成动作更新此 README；commit+push 到 `yuesixxi/Plant_m6A`（遵循 AGENTS.md）。
